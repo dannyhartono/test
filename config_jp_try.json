@@ -1,0 +1,16 @@
+[
+  {
+    "command": "refresh_measurements",
+    "error_if_no_measurement": true,
+    "scraper": "jp",
+    "filters": [
+      {
+        "date_from": -31
+      }
+    ],
+    "processes": [
+      "station_day_mad",
+      "city_day_mad",
+    ]
+  }
+]
